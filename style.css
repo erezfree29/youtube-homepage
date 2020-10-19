@@ -171,3 +171,22 @@ sup {
     height: 40x;
     margin-left: 65px;
 }
+.dropbtn{height:33px;
+    margin-top:44px;
+    margin-left:300px;
+       }
+sup{
+margin-left:-13px;
+}
+#search{margin-left:100px;
+  margin-top:48px;
+  height:33px;
+  width:800px;
+}
+#upload{margin-left:43px;
+   margin-top:47px;
+}
+.btn-primary{
+margin-top:45px;
+height:40px;
+margin-left:40px;
