@@ -45,6 +45,7 @@ body{
     width:560px;
   border:1px solid grey;
   }
+
   
   #video-footer {
     width:100%;
@@ -133,7 +134,9 @@ body{
 
 nav {
     display: flex;
-    height: 50px;
+    align-items:space-between;
+    background-color:red;
+    width:100%;
 }
 
 .line {
@@ -145,20 +148,18 @@ nav {
 }
 
 .dropbtn {
-    height: 33px;
+
     margin-top: 44px;
-    margin-left: 300px;
 }
 
+#search{
+  margin-top: 53px;
+    height: 26px;
+    width: 559px;
+    margin-left: 50px; 
+}
 sup {
     margin-left: -13px;
-}
-
-#search {
-    margin-left: 100px;
-    margin-top: 48px;
-    height: 33px;
-    width: 800px;
 }
 
 #upload {
@@ -167,27 +168,13 @@ sup {
 }
 
 .btn-primary {
-    margin-top: 45px;
-    height: 40x;
+    margin-top: 52px;
+    height: 39px;
     margin-left: 65px;
 }
 .dropbtn{height:33px;
     margin-top:44px;
-    margin-left:300px;
        }
 sup{
 margin-left:-13px;
-}
-#search{margin-left:100px;
-  margin-top:48px;
-  height:33px;
-  width:800px;
-}
-#upload{margin-left:43px;
-   margin-top:47px;
-}
-.btn-primary{
-margin-top:45px;
-height:40px;
-margin-left:40px;
 }
