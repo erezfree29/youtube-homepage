@@ -1,180 +1,259 @@
-body{
-    margin:0px;
+body {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
-  *{
-    box-sizing:border-box;
+  * {
+    box-sizing: border-box;
   }
-  .flex-row-center{
-    display:flex;
-    justify-content:center;
-    align-items:center;
+  .flex-row-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
-  .flex-row-start{
-    display:flex;
-    justify-content:flex-start;
-    align-items:center;
+  .flex-row-start {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
   }
   
   .flex-col-center {
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .flex-col-start {
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
   }
   
-  .flex-row-space{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
+  .flex-row-space {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
   hr {
     border: 0;
-    clear:both;
-    display:block;
-    width: 96%;               
-    background-color:grey;
+    clear: both;
+    display: block;
+    width: 96%;
+    background-color: grey;
     height: 1px;
   }
-  #video-container{
-    width:560px;
-  border:1px solid grey;
+  p {
+    background: red;
+    margin: 0px;
+    padding: 0px;
+    line-height: 17px;
   }
-
+  .wrapper {
+    width: 70vw;
+  }
+  #video-container {
+    width: 65%;
+    max-width: 650px;
+    border: 1px solid grey;
+    align-self: flex-start;
+  }
   
   #video-footer {
-    width:100%;
-    margin-top:15px;
-    
+    width: 100%;
+    margin-top: 15px;
+  }
+  #video-title {
+    margin-left: 15px;
+    font-size: 25px;
+    font-weight: bold;
   }
   #video-footer-wrapper {
-    width:100%;
-    justify-content:space-between;
+    width: 100%;
+    justify-content: space-between;
   }
   #video-footer-logo {
-    width:60px;
-    height:60px;
-    color:white;
-    background:green;
-    margin:20px 0px 20px 20px;
-    font-size:35px;
-   
+    width: 60px;
+    height: 60px;
+    color: white;
+    background: green;
+    margin: 20px 0px 20px 20px;
+    font-size: 35px;
   }
-  #subscribe{
-    height:35px;
-    font-size:14px;
+  #subscribe {
+    height: 35px;
+    font-size: 14px;
     border: 1px solid grey;
-    border-radius:4px;
-    
+    border-radius: 4px;
   }
   
   #subscribe-btn {
-    height:100%;
-    background:red;
-    border:none;  
-    color:white;  
+    height: 100%;
+    background: red;
+    border: none;
+    color: white;
   }
   
-  #youtube-icon{
-    margin-right:5px;
+  #youtube-icon {
+    margin-right: 5px;
   }
-  #counter{
-    height:100%;
-    background:white;
-    color:grey;
-    padding:0px 10px 0px 10px;
-    line-height:30px;
-    
+  #counter {
+    height: 100%;
+    background: white;
+    color: grey;
+    padding: 0px 10px 0px 10px;
+    line-height: 30px;
   }
   
-  #views-counter{
-    width:50%;
-    text-align:right;
-    font-size:25px;
-    align-self:flex-end;
-    margin-right:15px;
+  #views-counter {
+    width: 50%;
+    text-align: right;
+    font-size: 25px;
+    align-self: flex-end;
+    margin-right: 15px;
   }
-  #footer-bottom{
+  #footer-bottom {
+    width: 100%;
+    font-size: 14px;
+  }
+  
+  #bottom-left {
+    width: 40%;
+    margin-left: 20px;
+  }
+  #bottom-right {
+    width: 60%;
+    margin-left: 20px;
+    justify-content: flex-end;
+  }
+  
+  .bottom-icons {
+    width: 30%;
+  }
+  
+  #sidebar {
+    width: 30%;
+    min-width: 500px;
+    background: yellow;
+    align-self: flex-start;
+  }
+  #sidebar-title-container{
     width:100%;
-    font-size:14px;
   }
-  
-  #bottom-left{
-    width:40%;
-    margin-left:20px;
-    
+  #sidebar-title-leftside{
+    width:70%;
   }
-  #bottom-right{
-    width:60%;
-    margin-left:20px;
-    justify-content:flex-end;
-    
-  }
-  
-  .bottom-icons{
+  #sidebar-title-rightside{
     width:30%;
   }
-  
-  #video-title {
-    margin-left:15px;
-    font-size:25px;
-    font-weight:bold;
+  #toggle-button{
+    border:none;
+    border-radius: 50px;
+    position:relative;
+    width:40px;
+    height:20px;
+    color:white;
+    background-color:aqua;
+    cursor:pointer;
   }
-
+  #toggle-button-symbol{
+    position:absolute;
+  }
+  .symbol-right{
+    right:3px;
+    bottom:0;
+  }
+  .symbol-left{
+    left:3px;
+    bottom:0;
+  }
+  #toggle-button-circle {
+    position:absolute;
+    width:20px;
+    height:20px;
+    background-color:white;
+    border-radius:100%;  
+    
+  }
+  .circle-left{
+    top:0;
+    left:0;
+  }
+  .circle-right{
+    top:0;
+    right:0;
+  }
+  #thumbnail-container {
+  }
+  #thumbnail-wrapper {
+    align-items: flex-start;
+    margin: 10px 10px 10px 10px;
+  }
+  #thumbnail {
+    width: 200px;
+    margin-right: 10px;
+  }
+  #thumbnail-description {
+    background: green;
+    justify-content: flex-end;
+  }
+  
+  .smallish {
+    font-size: 12px;
+    margin: 0px;
+  }
+  .thumb-par {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
   /*navbar style */
-
-  .home {
-    width: 100%;
-}
-
-nav {
+  
+  nav {
     display: flex;
-    align-items:space-between;
-    background-color:red;
-    width:100%;
-}
-
-.line {
+    align-items: space-between;
+    background-color: red;
+    width: 100%;
+  }
+  
+  .line {
     margin-top: -12px;
-}
-
-.one {
+  }
+  
+  .one {
     margin-top: 8px;
-}
-
-.dropbtn {
-
+  }
+  
+  .dropbtn {
     margin-top: 44px;
-}
-
-#search{
-  margin-top: 53px;
+  }
+  
+  #search {
+    margin-top: 53px;
     height: 26px;
     width: 559px;
-    margin-left: 50px; 
-}
-sup {
+    margin-left: 50px;
+  }
+  sup {
     margin-left: -13px;
-}
-
-#upload {
+  }
+  
+  #upload {
     margin-left: 43px;
     margin-top: 47px;
-}
-
-.btn-primary {
+  }
+  
+  .btn-primary {
     margin-top: 52px;
     height: 39px;
     margin-left: 65px;
-}
-.dropbtn{height:33px;
-    margin-top:44px;
-       }
-sup{
-margin-left:-13px;
-}
+  }
+  .dropbtn {
+    height: 33px;
+    margin-top: 44px;
+  }
+  sup {
+    margin-left: -13px;
+  }
+  
