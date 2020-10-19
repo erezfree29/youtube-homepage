@@ -1,0 +1,193 @@
+body{
+    margin:0px;
+  }
+  *{
+    box-sizing:border-box;
+  }
+  .flex-row-center{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  .flex-row-start{
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+  }
+  
+  .flex-col-center {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+  }
+  .flex-col-start {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:start;
+  }
+  
+  .flex-row-space{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+  }
+  hr {
+    border: 0;
+    clear:both;
+    display:block;
+    width: 96%;               
+    background-color:grey;
+    height: 1px;
+  }
+  #video-container{
+    width:560px;
+  border:1px solid grey;
+  }
+  
+  #video-footer {
+    width:100%;
+    margin-top:15px;
+    
+  }
+  #video-footer-wrapper {
+    width:100%;
+    justify-content:space-between;
+  }
+  #video-footer-logo {
+    width:60px;
+    height:60px;
+    color:white;
+    background:green;
+    margin:20px 0px 20px 20px;
+    font-size:35px;
+   
+  }
+  #subscribe{
+    height:35px;
+    font-size:14px;
+    border: 1px solid grey;
+    border-radius:4px;
+    
+  }
+  
+  #subscribe-btn {
+    height:100%;
+    background:red;
+    border:none;  
+    color:white;  
+  }
+  
+  #youtube-icon{
+    margin-right:5px;
+  }
+  #counter{
+    height:100%;
+    background:white;
+    color:grey;
+    padding:0px 10px 0px 10px;
+    line-height:30px;
+    
+  }
+  
+  #views-counter{
+    width:50%;
+    text-align:right;
+    font-size:25px;
+    align-self:flex-end;
+    margin-right:15px;
+  }
+  #footer-bottom{
+    width:100%;
+    font-size:14px;
+  }
+  
+  #bottom-left{
+    width:40%;
+    margin-left:20px;
+    
+  }
+  #bottom-right{
+    width:60%;
+    margin-left:20px;
+    justify-content:flex-end;
+    
+  }
+  
+  .bottom-icons{
+    width:30%;
+  }
+  
+  #video-title {
+    margin-left:15px;
+    font-size:25px;
+    font-weight:bold;
+  }
+
+  /*navbar style */
+
+  .home {
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    height: 50px;
+}
+
+.line {
+    margin-top: -12px;
+}
+
+.one {
+    margin-top: 8px;
+}
+
+.dropbtn {
+    height: 33px;
+    margin-top: 44px;
+    margin-left: 300px;
+}
+
+sup {
+    margin-left: -13px;
+}
+
+#search {
+    margin-left: 100px;
+    margin-top: 48px;
+    height: 33px;
+    width: 800px;
+}
+
+#upload {
+    margin-left: 43px;
+    margin-top: 47px;
+}
+
+.btn-primary {
+    margin-top: 45px;
+    height: 40x;
+    margin-left: 65px;
+}
+.dropbtn{height:33px;
+    margin-top:44px;
+    margin-left:300px;
+       }
+sup{
+margin-left:-13px;
+}
+#search{margin-left:100px;
+  margin-top:48px;
+  height:33px;
+  width:800px;
+}
+#upload{margin-left:43px;
+   margin-top:47px;
+}
+.btn-primary{
+margin-top:45px;
+height:40px;
+margin-left:40px;
+}
